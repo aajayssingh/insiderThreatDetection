@@ -11,7 +11,7 @@ from matplotlib.dates import DateFormatter
 import matplotlib.dates as mdates
 from helper import pickle_store, pickle_restore
 
-style.use('fivethirtyeight')
+#https://blogs.oracle.com/datascience/introduction-to-anomaly-detection
 
 ins_ans_lst = pickle_restore("pickle/insider_list_file")
 # start_d, end_d = '01-2-2010', '04-2-2010'
